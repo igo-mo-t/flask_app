@@ -79,7 +79,7 @@ def article():
 @main.route('/visits-counter/')
 def visits():
     if 'visits' in session:
-        # чтение и обновление данных сессии BUGGG
+        # чтение и обновление данных сессии BUD
         session['visits'] = session.get('visits') + 1
     else:
         session['visits'] = 1  # настройка данных сессии
