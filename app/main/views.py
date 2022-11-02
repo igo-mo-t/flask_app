@@ -82,7 +82,7 @@ def visits():
         # чтение и обновление данных сессии yeeeshka
         session['visits'] = session.get('visits') + 1
     else:
-        session['visits'] = 1  # настройка данных сессии
+        session['visits'] = 1  # настройка данных сессии rrrrr
     return "Total visits: {}".format(session.get('visits'))
 
 
